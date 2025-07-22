@@ -11,7 +11,7 @@
   <div class="container">
     <h1>Vessely</h1>
     <p class="subtitle">AI-assisted Shipping Container Tracking</p>
-    <form class="track-form">
+    <form class="track-form" id="trackForm">
       <label for="container">Container #</label>
       <input type="text" id="container" name="container" placeholder="e.g. ZIMU1234567">
       <label for="booking">Booking #</label>
@@ -20,6 +20,7 @@
       <input type="text" id="bol" name="bol" placeholder="Optional">
       <button type="submit">Track</button>
     </form>
+    <div id="result"></div>
   </div>
 </body>
 </html>
