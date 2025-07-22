@@ -1,0 +1,13 @@
+{
+  "name": "vessely",
+  "version": "1.0.0",
+  "description": "AI-assisted modular web scraper for SSL container tracking (starting with ZIM)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "playwright": "^1.44.0"
+  }
+}
